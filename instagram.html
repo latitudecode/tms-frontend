@@ -1,0 +1,282 @@
+<html>
+
+    <head>
+        
+        <!-- META -->
+        <!-- make it responsive -->
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/application.css" />
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/lemonade.css" />
+        <!-- Off canvas -->
+        <link rel="stylesheet" type="text/css" href="css/foundation.css" />
+        <link rel="stylesheet" type="text/css" href="css/pushdown.css" />
+        <link rel="stylesheet" type="text/css" href="css/style5.css" />
+        <!-- packery -->
+        <link rel="stylesheet" type="text/css" href="css/packery.css" />
+        <!-- Fonts -->
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+        <!-- pace -->
+        <link rel="stylesheet" type="text/css" href="css/pace.css" />
+        <!-- animstion -->
+        <link rel="stylesheet" type="text/css" href="css/animsition.css" />
+        <link rel="stylesheet" type="text/css" href="css/page-transitions/loading.css" />
+        <link rel="stylesheet" type="text/css" href="css/page-transitions/fade/fade.css" />
+        <!-- instagram -->
+        <link rel="stylesheet" type="text/css" href="css/instagram.css" />                  
+        <!-- JS -->
+        <!-- packery -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/packery.pkgd.js"></script>
+        <!-- Off canvas -->        
+        <script src="js/foundation/foundation.offcanvas.js"></script>
+        <script src="js/foundation/foundation.js"></script>
+        <!-- pace -->
+        <script src="js/pace.min.js"></script>
+        <!-- instagram -->
+        <script src="js/instafeed.js"></script>     
+        <!-- instagram -->
+    
+        <script type="text/javascript">
+            var userFeed = new Instafeed({
+                get: 'user',
+                userId: '34417750',
+                accessToken: '34417750.3f949ca.5a06e03e1dda4dd0ae68c0504da0c004'
+            });
+            userFeed.run();
+        </script>
+      
+        
+    </head>
+<body>
+<div class="animsition" id="wrapper"> <!-- start off canvas wrap 1 -->  
+    <div class="off-canvas-wrap" data-offcanvas> <!-- start off canvas wrap 2 -->
+        <div class="inner-wrap"> <!-- start flyout navigation content -->
+        
+            <!-- start the header and navigation -->
+
+            <header> <!-- start header -->
+
+                 <div class="bit-3">
+                    <div class="box">
+                        <nav>
+                            <ul class="fl">
+                                <li class="flyout">
+                                    <a class="left-off-canvas-toggle" href="#">
+                                    <i class="fa fa-bars"></i>
+                                    </a> 
+                                </li>                        
+                                <li><a class="animsition-link" href="index.html">grid</a></li>
+                                <li><a class="animsition-link" href="packery.html">packery</a></li>
+                                <li><a class="animsition-link" href="flickity.html">flickity</a></li>
+                                <li><a class="animsition-link" href="instagram.html">instagram</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="bit-3">
+                    <div class="box">
+                        <nav>
+                            <ul class="center">
+                                <li><a class="nav-toggler toggle-push-top" href="#">pushdown</a></li>
+                                <li><a id="trigger-overlay" href="#">overlay</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>       
+
+                <div class="bit-3">
+                    <div class="box">
+                        <nav>
+                            <ul class="fr">
+                                <li><a class="animsition-link" href="headroom.html">headroom</a></li>
+                                <li><a class="animsition-link" href="asymmetrical.html">asymmetrical</a></li>
+                                <li><a class="animsition-link" href="animsition.html">page transition</a></li>
+                                <li class="flyout">
+                                    <a class="right-off-canvas-toggle" href="#">
+                                    <i class="fa fa-bars"></i>
+                                    </a> 
+                                </li>                          
+                            </ul>
+                        </nav>
+                    </div>
+                </div>              
+
+            </header> <!-- end header -->
+
+            <!-- end of the header and navigation -->
+
+            <!-- begin off canvas menu -->
+
+            <!-- Off canvas left -->
+            <div class="flyout"> <!-- start main flyout menu content -->
+                <!-- Off Canvas Menu -->
+                <aside class="left-off-canvas-menu">
+                      <a class="exit-off-canvas"><i class="fa fa-times"></i></a>
+                    <!-- whatever you want goes here -->
+                    <ul>
+                        <li>home</li>
+                        <li>explore</li>
+                        <li>niceness</li>                                             
+                    </ul>
+                </aside>
+            </div> <!-- end main flyout menu content -->
+        
+             <!-- Off canvas right -->
+            <div class="flyout"> <!-- start main flyout menu content -->
+                <!-- Off Canvas Menu -->
+                <aside class="right-off-canvas-menu">
+                      <a class="exit-off-canvas"><i class="fa fa-times"></i></a>
+                    <!-- whatever you want goes here -->
+                    <ul>
+                        <li>home</li>
+                        <li>explore</li>
+                        <li>niceness</li>                                                
+                    </ul>
+                </aside>
+            </div> <!-- end main flyout menu content -->
+                   
+              <!-- start off canvas pushdown -->
+
+                <nav class="menu push-menu-top">
+                    <ul>
+                      <button class="close-menu"><i class="fa fa-times-circle-o"></i></li>
+                    </ul>
+
+                    <!-- 3 columns -->
+                    <div class="bit-3">
+                        <div class="box">.bit-3</div>
+                    </div>
+
+                    <div class="bit-3">
+                        <div class="box">.bit-3</div>
+                    </div>
+
+                    <div class="bit-3">
+                        <div class="box">.bit-3</div>
+                    </div> 
+                               
+                </nav><!-- /push menu top -->
+
+                <div id="main">
+                    <div class="container">
+                        
+                        <div class="buttons">
+                            <button class="nav-toggler toggle-slide-left">Slide Menu Left</button>
+                            <button class="nav-toggler toggle-slide-right">Slide Menu Right</button>
+                            <button class="nav-toggler toggle-slide-top">Slide Menu Top</button>
+                            <button class="nav-toggler toggle-slide-bottom">Slide Menu Bottom</button><br>
+                            <button class="nav-toggler toggle-push-left">Push Menu Left</button>
+                            <button class="nav-toggler toggle-push-right">Push Menu Right</button>
+                            <button class="nav-toggler toggle-push-top">Push Menu Top</button>
+                            <button class="nav-toggler toggle-push-bottom">Push Menu Bottom</button>
+                        </div><!-- /buttons -->
+
+                    </div>
+                </div><!-- #main -->
+
+                <!-- end off canvas pushdown -->  
+
+            <!-- start off canvas overlay menu -->
+            <div class="overlay overlay-scale">
+                <button type="button" class="overlay-close">Close</button>
+                <nav>
+                    <!-- 3 columns -->
+                    <div class="bit-3">
+                        <div class="box">.bit-3</div>
+                    </div>
+
+                    <div class="bit-3">
+                        <div class="box">.bit-3</div>
+                    </div>
+
+                    <div class="bit-3">
+                        <div class="box">.bit-3</div>
+                    </div>
+                    <!-- 3 columns -->
+                    <div class="bit-3">
+                        <div class="box">.bit-3</div>
+                    </div>
+
+                    <div class="bit-3">
+                        <div class="box">.bit-3</div>
+                    </div>
+
+                    <div class="bit-3">
+                        <div class="box">.bit-3</div>
+                    </div>  
+                                      
+                </nav>
+            </div>
+            <!-- end off canvas overlay menu -->
+
+            <!-- end off canvas menus -->
+
+        <div class="frame"> <!-- start grid -->
+
+            <div id="instafeed"></div>                      
+
+        </div> <!-- end grid -->
+
+        <footer> <!-- start footer -->
+
+            <div class="bit-2">
+                <div class="box">
+                    <section class="fl">
+                        <h4>work by sam</h4>
+                    </section>
+                </div>
+            </div>
+
+            <div class="bit-2">
+                <div class="box">
+                    <section class="fr">
+                        <h4>est. 2016</h4>
+                    </section>
+                </div>
+            </div>
+
+
+        </footer> <!-- end footer -->
+     
+        </div> <!-- end flyout navigation content -->
+    </div> <!-- end off canvas wrap 2 -->
+</div> <!-- end off canvas wrap 1 -->
+
+    <!-- scripts -->
+    <!-- packery -->
+    <script>
+    // external js: packery.pkgd.js
+
+    $('.grid').packery({
+      itemSelector: '.grid-item',
+      columnWidth: 100
+    });
+
+    </script>
+    <!-- off canvas -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/nav.js"></script>   
+    <script src="js/modernizr.custom.js"></script> 
+    <script src="js/demo1.js"></script> 
+    <script>
+      $(document).foundation();
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!-- animstion -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/animsition.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.animsition').animsition();
+      });
+    </script>  
+
+
+
+</body> 
+</html>

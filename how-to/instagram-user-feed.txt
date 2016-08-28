@@ -1,0 +1,33 @@
+HOW TO GET INSTAGRAM USER FEED:
+
+1. Get user ID:
+
+https://www.instagram.com/{username}/?__a=1
+https://www.instagram.com/sambakessalmon/?__a=1
+
+Result should be: 
+
+user id: 34417750
+
+2. Register your application
+
+https://www.instagram.com/developer/
+
+3. Register new client
+
+https://www.instagram.com/developer/clients/manage/
+
+4. Fill out fields - Make website URL localhost:8888
+
+5. Add valid redirect URIs: - use localhost:8888
+
+6. In security tab - click disable implicit OAuth checkbox
+
+7. Get access token
+
+https://instagram.com/oauth/authorize/?client_id=[CLIENT_ID_HERE]&redirect_uri=http://localhost&response_type=token
+
+result should be:
+
+http://localhost/#access_token=34417750.3f949ca.5a06e03e1dda4dd0ae68c0504da0c004
+

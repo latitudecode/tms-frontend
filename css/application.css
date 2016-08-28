@@ -1,0 +1,92 @@
+/* OVERALL */
+
+.fr {
+	float: right;
+}
+
+.fl {
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+/* MAIN */
+
+main {
+    background: lightgrey;
+    height: 100%;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+/* HEADER */
+
+header ul li {
+	display: inline;
+	padding: 10px;
+}
+
+header {
+	height: 100px;
+	background-color: lightblue;
+}
+
+header nav {
+	height: 0px;
+}
+
+header .bit-3 .box {
+	padding: 45px 0;
+}
+
+header .bit-3 .box .fr, header .bit-3 .box .fl {
+	position: relative;
+}
+
+header .bit-3 .box .fl {
+	left: 20px;
+	bottom: 10px;
+}
+
+header .bit-3 .box .fr {
+	right: 20px;
+	bottom: 10px;
+}
+
+/* HEADER - Off canvas pushdown */
+
+.push-menu-top .bit-3 .box {
+    height: 100%;
+}
+
+/* FOOTER */
+
+footer {
+	height: 105px;
+	width: 100%;
+	background-color: lightblue;
+}
+
+footer .bit-2 .box {
+	padding: 45px 0;
+}
+
+footer .bit-2 .box .fr, footer .bit-2 .box .fl {
+	position: relative;		
+}
+
+footer .bit-2 .box .fl {
+	left: 20px;
+	bottom: 10px;
+}
+
+footer .bit-2 .box .fr {
+	right: 20px;
+	bottom: 10px;	
+}
+
