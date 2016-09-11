@@ -1,0 +1,61 @@
+/* grid */
+
+.bit-20 {
+    width: 20%;
+}
+
+.bit-80 {
+    width: 80%;
+}
+
+/* packery */
+
+
+.grid-item {
+  float: left;
+  padding: 8px;
+}
+
+
+
+.grid-item--landscape-3-2 {
+	width: 300px;	
+	height: auto;
+}
+
+.grid-item--landscape-3-1 {
+	width: 300px;	
+	height: auto;		
+}
+
+.grid-item--portrait-3-4 {
+	width: 300px;	
+	height: auto;
+}
+
+.grid-item--portrait-1-3 {
+	width: 300px;	
+	height: auto;
+}
+
+.grid-item--square {
+	width: 300px;	
+	height: auto;
+}
+
+.grid-item--height2 { 
+	width: 300px;	
+	height: auto;
+}
+
+
+
+/* menus / navigation */
+
+.frame .box-20 .filters {
+
+}
+
+.frame .box-20 .filters {
+	
+}
