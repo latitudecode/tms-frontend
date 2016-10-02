@@ -44,13 +44,12 @@
 <script type="text/javascript">
     var userFeed = new Instafeed({
         get: 'user',
-        userId: '34417750',
-        accessToken: '34417750.3f949ca.5a06e03e1dda4dd0ae68c0504da0c004',
-        template: '<img src="{{image}}" />'
+        userId: '3072569667',
+        accessToken: '3072569667.d45f7a0.a4c236e978c0435696caf2c4f177de1b',
+        template: '<a href="{{link}}"><img src="{{image}}" /></a>'
     });
     userFeed.run();
 </script>
-
 
 
 </head>
@@ -179,13 +178,20 @@
 	<div class="clear"></div>
 	<!-- end medium selection section -->
 	
+	<div class="views">
+		<div class="fl">
+			<p>Views from the studio</p>
+		</div>
+		<div class="fr">
+			<p>Follow &nbsp;<i class="fa fa-instagram" aria-hidden="true"></i></p>
+		</div>
+	</div>
+
 	<!-- start insta -->
 	<section class="insta">
-		<div class="scrollery">
 
 			<div id="instafeed"></div>
 
-		</div>
 	</section>
 	<!-- end insta -->
 

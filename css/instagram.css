@@ -6,7 +6,41 @@
 /* instagram slider */
 
 section.insta {
-	height: 306px;
+	height: auto;
 	width: 100%;
 	border-top: 1px solid #f1dfd2;
+}
+
+
+#instafeed {
+    width: 100%;
+    height: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+}
+
+#instafeed img {
+    display: inline;
+    display: inline-block;
+}
+
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    background: #f1dfd2;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #89715e;
+}
+
+::-webkit-scrollbar-corner {
+    background: #f1dfd2;
+}
+
+.views {
+    padding-left: 25px;
+    padding-right: 25px;
 }

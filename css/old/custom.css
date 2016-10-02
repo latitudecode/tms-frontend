@@ -788,4 +788,94 @@ body.page-id-135 .sub-nav {
 }
 
 ul.fav {
-  padding-left: 18
+  padding-left: 18;
+}
+
+
+/* product detail */
+
+.media-entry-mosaic .product-content {
+	padding: 40px;
+	position: relative;
+	text-align: left;
+
+}
+
+.product-content .deets {
+    position: relative;
+    padding-bottom: 60%;
+}
+
+.product-content .commerce {
+	position: relative;
+}
+
+.product-content .price-it {
+	width: 40%;
+}
+
+.product-content .price-it ul li {
+	display: inline;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product-detail-page .nexter {
+    position: relative;
+    right: 20px;
+    top: 15px;
+}
+
+.product-detail-page .viewer {
+    position: relative;
+    bottom: 15px;
+}
+
+.product-detail-page .nexter a {
+
+}
+
+.product-detail-page .product {
+    padding: 50px 30px 25px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
