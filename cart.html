@@ -50,7 +50,6 @@
     userFeed.run();
 </script>
 
-
 </head>
 <body>
 <div class="off-canvas-wrap" data-offcanvas> <!-- start flyout navigation -->
@@ -125,39 +124,72 @@
 
 <!-- main content -->
     
-    <section class="product-detail-page">
-       
-        <div class="media-entry-mosaic fl">
-            <div class="product-content">
-                <div class="deets">
-                    <h1>Water Resource</h1>
-                    <p>26" x 21"</p>
-                    <p>2015</p>
-                    <br />
-                    <h2>Related</h2>
-                </div>
-                <div class="commerce">
-                    <div class="price-it">
-                        <span class="fl"><p>Price</p></span>
-                        <span class="fr"><h3>$475.00</h3></span>
-                    </div>
-                    <div class="clear"></div>
-                    <div class="buy-it">
-                        <a class="btn">Add to Cart</a>
-                    </div>
-                </div>
-            </div>
-        </div> 
+    <section class="cart">
 
-        <div class="media-entry-collage fr">
-            <span class="nexter fr"><a href="#">Next Piece</a></span> 
+        <div class="maybe">
 
-                <div class="product">
-                    <img src="img/square.jpg" />
-                </div>
+           <table class="responsive">
+                <tr>
+                    <th>Cart</th>
+                    <th>Piece</th>
+                    <th>Price</th>
+                    <th>Remove</th>
+                    <th>Total</th>                
+                </tr>
+                <tr>
+                    <th><img src="img/square.jpg" /></th>
+                    <th><a href="#">Water Source</a></th>
+                    <th>$475.00</th>
+                    <th><a href="#"><i class="fa fa-times-circle-o" aria-hidden="true"></i></a></th>
+                    <th>$475.00</th>                
+                </tr>
+                <tr>
+                    <th><img src="img/landscape-3-1.jpg" /></th>
+                    <th><a href="#">Suns</a></th>
+                    <th>$275.00</th>
+                    <th><a href="#"><i class="fa fa-times-circle-o" aria-hidden="true"></i></a></th>
+                    <th>$275.00</th> 
+                </tr>
+                <tr>
+                    <th><img src="img/square.jpg" /></th>
+                    <th><a href="#">Water Source</a></th>
+                    <th>$475.00</th>
+                    <th><a href="#"><i class="fa fa-times-circle-o" aria-hidden="true"></i></a></th>
+                    <th>$475.00</th>                
+                </tr>
+                <tr>
+                    <th><img src="img/landscape-3-1.jpg" /></th>
+                    <th><a href="#">Suns</a></th>
+                    <th>$275.00</th>
+                    <th><a href="#"><i class="fa fa-times-circle-o" aria-hidden="true"></i></a></th>
+                    <th>$275.00</th> 
+                </tr>                    
 
-            <span class="viewer fl"><a href="#">View Full Screen</a></span>
-        </div> 
+           </table>
+
+        </div>
+
+        <div class="clear"></div>
+
+        <a class="btn" href="">apply code</a>
+
+        <h2>Cart Totals</h2>
+
+       <table>
+            <tr>
+                <th>Subtotal</th>
+                <th>Shipping</th>
+                <th>Grand Total</th>
+                <th>Next Step</th>                
+            </tr>
+            <tr>
+                <th>$625.00</th>
+                <th><a href="#">Calculate Shipping</a></th>
+                <th>$625.00</th>
+                <th><a clas="btn" href=""></a></th>             
+            </tr>
+                                              
+       </table>
 
     </section>
 
@@ -165,7 +197,6 @@
 <!-- / main content -->
 
 
- <div class="clear"></div>
 
 
     <!-- start the footer -->

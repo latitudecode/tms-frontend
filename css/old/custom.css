@@ -792,7 +792,7 @@ ul.fav {
 }
 
 
-/* product detail */
+/********* PRODUCT DETAIL *********/
 
 .media-entry-mosaic .product-content {
 	padding: 40px;
@@ -841,6 +841,77 @@ ul.fav {
 .product-detail-page .product {
     padding: 50px 30px 25px 0px;
 }
+
+/********* CART *********/
+
+.cart {
+	padding: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.cart tr img {
+	width: 150px;
+}
+
+
+/* responseive */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

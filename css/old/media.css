@@ -224,3 +224,46 @@ only screen and (min-device-pixel-ratio : 1.5) {
 /* detial */
 }
 
+/* mobile */
+
+@media only screen and (max-width: 767px) {
+.cart {
+	padding: 10px;
+}
+
+.maybe {
+    width: 100%;
+    height: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin: 0 auto;	
+}
+
+
+.responsive th:nth-child(1) {
+	width: 100%;
+}
+
+.responsive th:nth-child(2), .responsive th:nth-child(3),
+.responsive th:nth-child(4), .responsive th:nth-child(5) {
+	clear: both;
+}
+
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    background: #f1dfd2;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #89715e;
+}
+
+::-webkit-scrollbar-corner {
+    background: #f1dfd2;
+}
+
+
+}
+
