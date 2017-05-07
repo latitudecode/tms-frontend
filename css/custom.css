@@ -10,43 +10,34 @@
 
 /* packery */
 
+/* ---- grid ---- */
+
+.grid {
+  background: #DDD;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-item {
+  width: 33.333%;
+}
 
 .grid-item {
   float: left;
-  padding: 8px;
 }
 
-
-
-.grid-item--landscape-3-2 {
-	width: 300px;	
-	height: auto;
+.grid-item img {
+  display: block;
+  max-width: 100%;
 }
 
-.grid-item--landscape-3-1 {
-	width: 300px;	
-	height: auto;		
-}
-
-.grid-item--portrait-3-4 {
-	width: 300px;	
-	height: auto;
-}
-
-.grid-item--portrait-1-3 {
-	width: 300px;	
-	height: auto;
-}
-
-.grid-item--square {
-	width: 300px;	
-	height: auto;
-}
-
-.grid-item--height2 { 
-	width: 300px;	
-	height: auto;
-}
 
 
 
