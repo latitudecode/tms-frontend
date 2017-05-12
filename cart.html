@@ -2,12 +2,12 @@
 <head>
 <!-- This is a website for Thomas Meyers -->
 <!-- core css -->   
-<link rel="stylesheet" type="text/css" href="css/old/style.css" />
-<link rel="stylesheet" type="text/css" href="css/old/style.css" />
-<link rel="stylesheet" type="text/css" href="css/old/bootstrap-responsive.css" />
-<link rel="stylesheet" type="text/css" href="css/old/normalize.css" />
-<link rel="stylesheet" type="text/css" href="css/old/custom.css" />
-<link rel="stylesheet" type="text/css" href="css/old/media.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
+<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="css/custom.css" />
+<link rel="stylesheet" type="text/css" href="css/media.css" />
+<link rel="stylesheet" type="text/css" href="css/lemonade.css" />
 <!-- instagram -->
 <link rel="stylesheet" type="text/css" href="css/instagram.css" />
 <!-- scrollery-->
@@ -18,25 +18,22 @@
 <link href='http://fonts.googleapis.com/css?family=Muli:300,400,300italic,400italic|Nunito:400,300,700' rel='stylesheet' type='text/css'>
 <!-- font awesome for icons -->
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/old/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="css/old/font-awesome.min.css" />
-<link rel="stylesheet" type="text/css" href="css/old/font-awesome.css" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
 <!-- make it responsive -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- foundation css -->
-<link rel="stylesheet" type="text/css" href="css/old/foundation.css" />
+<link rel="stylesheet" type="text/css" href="css/foundation.css" />
 <!-- foundation script -->
 <script src="js/foundation/foundation.offcanvas.js"></script>
 <script src="js/foundation/foundation.js"></script>
 <!-- hover action -->
-<link rel="stylesheet" type="text/css" href="css/old/hover.css" />  
+<link rel="stylesheet" type="text/css" href="css/hover.css" />  
 <!-- form css -->
-<link rel="stylesheet" type="text/css" href="css/old/forms.css" />
+<link rel="stylesheet" type="text/css" href="css/forms.css" />
 <!-- JS -->
 <!-- draggable -->
 <script src="js/draggable.js"></script>
-<!-- flickity -->
-<script src="js/jquery.min.js"></script>
-<script src="js/flickity.pkgd.min.js"></script>     
 <!-- instagram -->
 <script src="js/instafeed.js"></script>     
 <!-- instagram -->
@@ -49,6 +46,19 @@
     });
     userFeed.run();
 </script>
+
+<!-- HERE -->
+
+<!-- flickity -->
+<script src="js/jquery.min.js"></script>
+<script src="js/flickity.pkgd.min.js"></script>  
+
+<!-- packery -->
+<script src="js/jquery.min.js"></script>
+<script src="js/packery.pkgd.js"></script>
+
+
+<!-- / HERE -->
 
 </head>
 <body>
@@ -130,39 +140,39 @@
 
            <table class="responsive">
                 <tr>
-                    <th>Cart</th>
-                    <th>Piece</th>
-                    <th>Price</th>
-                    <th>Remove</th>
-                    <th>Total</th>                
+                    <th><h3>Cart</h3></th>
+                    <th><h3>Piece</h3></th>
+                    <th><h3>Price</h3></th>
+                    <th><h3>Remove</h3></th>
+                    <th><h3>Total</h3></th>                
                 </tr>
                 <tr>
-                    <th><img src="img/square.jpg" /></th>
-                    <th><a href="#">Water Source</a></th>
-                    <th>$475.00</th>
+                    <th class="product-thumb"><img src="img/square.jpg" /></th>
+                    <th><a href="#"><h4>Water Source</h4></a></th>
+                    <th><h4>$475.00</h4></th>
                     <th><a href="#"><i class="fa fa-times-circle-o" aria-hidden="true"></i></a></th>
-                    <th>$475.00</th>                
-                </tr>
-                <tr>
-                    <th><img src="img/landscape-3-1.jpg" /></th>
-                    <th><a href="#">Suns</a></th>
-                    <th>$275.00</th>
-                    <th><a href="#"><i class="fa fa-times-circle-o" aria-hidden="true"></i></a></th>
-                    <th>$275.00</th> 
-                </tr>
-                <tr>
-                    <th><img src="img/square.jpg" /></th>
-                    <th><a href="#">Water Source</a></th>
-                    <th>$475.00</th>
-                    <th><a href="#"><i class="fa fa-times-circle-o" aria-hidden="true"></i></a></th>
-                    <th>$475.00</th>                
+                    <th><h4>$475.00</h4></th>                
                 </tr>
                 <tr>
                     <th><img src="img/landscape-3-1.jpg" /></th>
-                    <th><a href="#">Suns</a></th>
-                    <th>$275.00</th>
+                    <th><a href="#"><h4>Suns</h4></a></th>
+                    <th><h4>$275.00</h4></th>
                     <th><a href="#"><i class="fa fa-times-circle-o" aria-hidden="true"></i></a></th>
-                    <th>$275.00</th> 
+                    <th><h4>$275.00</h4></th> 
+                </tr>
+                <tr>
+                    <th><img src="img/square.jpg" /></th>
+                    <th><h4><a href="#">Water Source</a></h4></th>
+                    <th><h4>$475.00</h4></th>
+                    <th><a href="#"><i class="fa fa-times-circle-o" aria-hidden="true"></i></a></th>
+                    <th><h4>$475.00</h4></th>                
+                </tr>
+                <tr>
+                    <th><img src="img/landscape-3-1.jpg" /></th>
+                    <th><h4><a href="#">Suns</a></h4></th>
+                    <th><h4>$275.00</h4></th>
+                    <th><a href="#"><i class="fa fa-times-circle-o" aria-hidden="true"></i></a></th>
+                    <th><h4>$275.00</h4></th> 
                 </tr>                    
 
            </table>
@@ -171,48 +181,78 @@
 
         <div class="clear"></div>
 
-        <a class="btn" href="">apply code</a>
+
+        <br />
+        <br />
+ 
+            <input class="signup-field" type="email" required="" placeholder="" id="mce-EMAIL" name="EMAIL" value="">
+                <button class="signup-button" id="mc-embedded-subscribe" name="subscribe" type="apply code">
+                    apply code<i class="#"></i>
+                </button>
+        <br />
+        <br />
 
         <h2>Cart Totals</h2>
 
-       <table>
-            <tr>
-                <th>Subtotal</th>
-                <th>Shipping</th>
-                <th>Grand Total</th>
-                <th>Next Step</th>                
-            </tr>
-            <tr>
-                <th>$625.00</th>
-                <th><a href="#">Calculate Shipping</a></th>
-                <th>$625.00</th>
-                <th><a clas="btn" href=""></a></th>             
-            </tr>
-                                              
-       </table>
+        <div class="frame">
+
+            <div class="bit-60">
+                <div class="box">
+                   <table class="totals">
+                        <tr>
+                            <th><h3>Subtotal</h3></th>
+
+                            <th><h3>Grand Total</h3></th>               
+                        </tr>
+                        <tr>
+                            <th><h4>$625.00</h4></th>
+                            <th><h4>$625.00</h4></th>            
+                        </tr>                              
+                   </table>
+                </div>   
+            </div>
+
+            <div class="bit-40">
+                <div class="box checkout">
+                    <a class="btn" href="#">Checkout<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </div>
 
     </section>
 
 
 <!-- / main content -->
-
-
-
-
     <!-- start the footer -->
     <footer>
         <div class="signup-man fl">
             <input class="signup-field" type="email" required="" placeholder="Email address" id="mce-EMAIL" name="EMAIL" value="">
                 <button class="signup-button" id="mc-embedded-subscribe" name="subscribe" type="submit">
+                    sign up
                     <i class="#"></i>
                 </button>
         </div>
-        <div class="rightz fr"><h4>&copy; 2014 Thomas Meyers</h4></div>
+        <div class="rightz fr"><h4>&copy; 2017 Thomas Meyers</h4></div>
     </footer>
 
 </div>
   </div>  
 </div> 
+
+    <!-- packery - has to be here -->
+    <script>
+    // init Packery
+    var $grid = $('.grid').packery({
+      // options...
+    });
+    // layout Packery after each image loads
+    $grid.imagesLoaded().progress( function() {
+      $grid.packery();
+    }); 
+    </script>
+    <!-- / packery -->
+
     <!-- flickity -->
     <script>
 
@@ -223,11 +263,15 @@
     });
 
     </script> 
-<!-- end flyout navigation -->
+    <!-- / flickity -->
+
+    <!-- end flyout navigation -->
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>
       $(document).foundation();
     </script>
+    
+
 </body>
 </html>

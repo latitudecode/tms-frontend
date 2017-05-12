@@ -1,0 +1,68 @@
+@media (min-width: 840px) and (max-width: 1140px) {
+
+
+.grid-item--landscape-3-2 {
+	width: 400px;	
+	height: auto;
+}
+
+.grid-item--landscape-3-1 {
+	width: 400px;	
+	height: auto;		
+}
+
+.grid-item--portrait-3-4 {
+	width: 400px;	
+	height: auto;
+}
+
+.grid-item--portrait-1-3 {
+	width: 400px;	
+	height: auto;
+}
+
+.grid-item--square {
+	width: 400px;	
+	height: auto;
+}
+
+.grid-item--height2 { 
+	width: 400px;	
+	height: auto;
+}
+
+}
+
+@media (min-width: 840px) and (max-width: 1015px) {
+
+.grid-item--landscape-3-2 {
+	width: 300px;	
+	height: auto;
+}
+
+.grid-item--landscape-3-1 {
+	width: 300px;	
+	height: auto;		
+}
+
+.grid-item--portrait-3-4 {
+	width: 300px;	
+	height: auto;
+}
+
+.grid-item--portrait-1-3 {
+	width: 300px;	
+	height: auto;
+}
+
+.grid-item--square {
+	width: 300px;	
+	height: auto;
+}
+
+.grid-item--height2 { 
+	width: 300px;	
+	height: auto;
+}
+
+}

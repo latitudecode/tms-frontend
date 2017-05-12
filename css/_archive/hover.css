@@ -5,19 +5,6 @@ figure.effect-hover {
 	overflow: visible;
 }
 
-figure.effect-hover:before,
-figure.effect-hover h2:before {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: -1;
-	width: 100%;
-	height: 100%;
-	background: #000;
-	content: '';
-	-webkit-transition: opacity 0.35s;
-	transition: opacity 0.35s;
-}
 
 figure.effect-hover:before {
 	box-shadow: 0px 0px 25px 5px rgba(209,182,160,0.7);
@@ -60,6 +47,10 @@ figure.effect-hover:hover img {
 	border-right-color: #b14742;
 	-webkit-transform: scale(1);
 	transform: scale(1);
+	 opacity: .3 !important;
+  background: #fff !important;
+  -webkit-transition: opacity 0.35s !important;
+  transition: opacity 0.35s !important;
 }
 
 
@@ -111,13 +102,15 @@ figure.effect-hover:hover p {
 }
 
 .row-effect figure figcaption {
-	display: none; /* temporary */
-	padding: 2em;
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 1.25em;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
+  display: inline;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  bottom: 6px;
+  left: 20px;
 }
 
 .row-effect figure figcaption::before,
@@ -155,10 +148,20 @@ figure.effect-hover:hover p {
 }
 
 .row-effect figure p {
-	letter-spacing: 1px;
-	font-size: 68.5%;
+  letter-spacing: 1px;
+  font-size: 58.5%;
+  letter-spacing: 3px;
 }
 
+
+.collage  .row-effect figure p {
+  color: #8c4f50;
+}
+
+
+.mosaic .row-effect figure p {
+  color: #8c4f50;
+}
 
 .row-effect {
 	position: relative;
