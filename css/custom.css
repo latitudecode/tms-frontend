@@ -330,6 +330,7 @@ right: 6%;
 	font-size: 1.25em;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
+	text-align: left;
 }
 
 .grid figure figcaption::before,
@@ -339,10 +340,10 @@ right: 6%;
 
 .grid figure figcaption,
 .grid figure figcaption > a {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    width: 100%;
 }
 
 /* Anchor will cover the whole item by default */
@@ -993,6 +994,7 @@ i.fa.fa-times-circle-o {
 
 .categories {
     left: 50px;
+    top: 17px;
     position: relative;
 }
 

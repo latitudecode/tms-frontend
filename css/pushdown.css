@@ -50,7 +50,7 @@ body.smt-open nav.slide-menu-top, body.pmt-open nav.push-menu-top {
 
 body.smt-open nav.slide-menu-top, body.pmt-open nav.push-menu-top, body.pmt-open nav.push-menu-top-subnav {
     position: relative;
-    top: 0;
+    top: -130px !important;
 }
 
 /* ------------------------------------------------------------ *\

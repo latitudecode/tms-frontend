@@ -17,8 +17,8 @@ nav.menu.push-menu-top-subnav, nav.menu.push-menu-top {
 button.close-menu {
 	position: absolute;
 	float: right;
-    top: 20px;
-    right: 20px;
+	top: 10px;
+	right: 4px;
 }
 
 .contact {
@@ -37,14 +37,20 @@ margin: 6px 0px;
 }
 
 nav.menu.push-menu-top, nav.menu.push-menu-top-subnav {
-	background-color: white;
-	border: 1px solid #000;
+	background-image: url('http://thomasmeyersstudio.com/new/wp-content/themes/thomasmeyersstudio/images/bg-contact.jpg');
 }
 
+/*
+body.smt-open nav.slide-menu-top, body.pmt-open nav.push-menu-top {
+    position: relative;
+    top: -485px !important;
+}
 
+*/
 
 body.smt-open nav.slide-menu-top, body.pmt-open nav.push-menu-top, body.pmt-open nav.push-menu-top-subnav {
-    position: absolute;
+    position: relative;
+    top: 0;
 }
 
 /* ------------------------------------------------------------ *\
@@ -112,6 +118,7 @@ nav.push-menu-top ul,
 nav.push-menu-bottom ul,
 nav.push-menu-top-subnav ul {
     text-align: center;
+    padding: 25px 0 0 0;
 }
 nav.slide-menu-top li,
 nav.slide-menu-bottom li,
@@ -154,7 +161,6 @@ nav.push-menu-bottom,
 nav.push-menu-top-subnav {
     bottom: -100px
 }
-/*
 body.smt-open nav.slide-menu-top,
 body.pmt-open nav.push-menu-top,
 body.pmt-open nav.push-menu-top-subnav  {
@@ -166,7 +172,7 @@ body.pmt-open nav.push-menu-top,
 body.pmt-open nav.push-menu-top-subnav {
     top: -486px;
 }
-*/
+
 body.pmt-open nav.push-menu-top-subnav {
     top: -558px;
 }

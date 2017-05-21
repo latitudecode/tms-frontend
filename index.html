@@ -8,6 +8,7 @@
 <link rel="stylesheet" type="text/css" href="css/custom.css" />
 <link rel="stylesheet" type="text/css" href="css/media.css" />
 <link rel="stylesheet" type="text/css" href="css/lemonade.css" />
+<link rel="stylesheet" type="text/css" href="css/pushdown.css" />
 <!-- instagram -->
 <link rel="stylesheet" type="text/css" href="css/instagram.css" />
 <!-- scrollery-->
@@ -101,14 +102,47 @@
 		</div>
 		<nav class="primary-nav">
 			<ul class="nav-links fr">
+				<!--
 				<li><a href="#">work</a></li>
 				<li><a href="#">studio</a></li>
 				<li><a href="#">explore</a></li>
 				<li><a href="#">info</a></li>
-				<li class="pushup"><a href="#">contact</a></li>												
+				-->
+				<li><a class="nav-toggler toggle-push-top" href="#">contact</a></li>												
 			</ul>
 		</nav>
 		<!-- end to main navigation and logo -->
+
+		<nav class="menu push-menu-top">
+		    <ul>
+		        <li><button class="close-menu"><i class="fa fa-times-circle-o"></i></li>
+		    </ul>
+		    <div class="contact">
+		    	<h2>contact</h2>
+		    	<p>thomas meyers</p>
+				<p>phone: 603.525.3528</p>
+				<p>email: tom@thomasmeyersstudio.com</p>
+		    </div>
+		</nav><!-- /push menu top -->
+
+    <div id="main">
+        <div class="container">
+            
+            <div class="buttons">
+                <button class="nav-toggler toggle-slide-left">Slide Menu Left</button>
+                <button class="nav-toggler toggle-slide-right">Slide Menu Right</button>
+                <button class="nav-toggler toggle-slide-top">Slide Menu Top</button>
+                <button class="nav-toggler toggle-slide-bottom">Slide Menu Bottom</button><br>
+                <button class="nav-toggler toggle-push-left">Push Menu Left</button>
+                <button class="nav-toggler toggle-push-right">Push Menu Right</button>
+                <button class="nav-toggler toggle-push-top">Push Menu Top</button>
+                <button class="nav-toggler toggle-push-bottom">Push Menu Bottom</button>
+            </div><!-- /buttons -->
+
+        </div>
+    </div><!-- #main -->
+
+
 	</header>
 
 	<!-- end of the header and navigation -->
@@ -132,7 +166,6 @@
 
 
 	<!--- start to the slider -->
-
     <!-- start flickity gallery -->  
     <section class="flickity">
         <div class="gallery">
@@ -255,7 +288,9 @@
 	<!-- end flyout navigation -->
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
-    <script>
+	<script src="js/classie.js"></script> 
+    <script src="js/nav.js"></script>    
+	 <script>
       $(document).foundation();
     </script>
 
